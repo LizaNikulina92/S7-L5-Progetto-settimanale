@@ -57,10 +57,6 @@ function getAllUsers() {
 
 let closeImage = document.querySelector('#hidden button');
 closeImage.addEventListener('click', function () {
-    /*     let img = document.querySelector('#hidden');
-        img.style.display = 'none';
-        let a = document.querySelector('#card-list');
-        a.style.display = 'block'; */
     let img = document.querySelector('#hidden');
     img.style.display = 'none';
     let a = document.querySelector('#card-list');
