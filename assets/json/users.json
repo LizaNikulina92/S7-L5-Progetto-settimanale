@@ -1,0 +1,34 @@
+[
+  {
+    "username": "john",
+    "firstName": "John",
+    "lastName": "Doe",
+    "gender": "Male",
+    "profileURL": "assets/img/male1.png",
+    "email": "john.doe@example.com"
+  },
+  {
+    "username": "jane",
+    "firstName": "Jane",
+    "lastName": "Doe",
+    "gender": "Female",
+    "profileURL": "assets/img/female1.png",
+    "email": "jane.doe@example.com"
+  },
+  {
+    "username": "jack",
+    "firstName": "Jack",
+    "lastName": "Black",
+    "gender": "Male",
+    "profileURL": "assets/img/male2.png",
+    "email": "jack.black@example.com"
+  },
+  {
+    "username": "julie",
+    "firstName": "Julie",
+    "lastName": "Brown",
+    "gender": "Female",
+    "profileURL": "assets/img/female2.png",
+    "email": "julie.brown@example.com"
+  }
+]

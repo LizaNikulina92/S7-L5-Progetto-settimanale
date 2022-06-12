@@ -1,0 +1,67 @@
+.card {
+  display: flex;
+  border-color: #fff;
+  background-color: #ebd233;
+}
+.col:nth-child(even) .card {
+  flex-direction: row-reverse;
+  border-bottom-right-radius: 20em;
+  border-top-right-radius: 20em;
+  text-align: end;
+}
+.col:nth-child(even) img {
+  transform: scaleX(-1);
+}
+.col:nth-child(odd) .card {
+  flex-direction: row;
+  border-bottom-left-radius: 20em;
+  border-top-left-radius: 20em;
+}
+img {
+  border: 10px solid #ebd233;
+  box-sizing: border-box;
+}
+h5 {
+  color: #fff;
+  font-size: 3rem;
+}
+h1 {
+  font-size: 5rem;
+}
+hr {
+  border-color: #fff;
+  border-width: 3px;
+}
+.col:nth-child(odd) .btn_box {
+  text-align: end;
+}
+.btn_box {
+  margin-top: 1em;
+}
+.col:nth-child(even) button {
+  margin-right: 1em;
+}
+.col:nth-child(odd) button {
+  margin-left: 1em;
+}
+
+#hidden {
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+  width: 50%;
+  max-width: 500px;
+  height: auto;
+  position: absolute;
+  display: none;
+}
+#hidden img {
+  border: 1px solid #666;
+  border-radius: 1em;
+  width: 90%;
+}
+#hidden button {
+  position: absolute;
+  top: 0;
+  right: 0;
+}
